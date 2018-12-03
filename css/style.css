@@ -1,0 +1,448 @@
+body {
+  background: #ffffff;
+  color: #777;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400;
+  overflow-x: hidden;
+  text-rendering: auto;
+  vertical-align: middle;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: "Montserrat", sans-serif !important;
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+a {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #2274c5;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+  color: #6b6b6b;
+  outline: 0;
+}
+
+.form-control:focus,
+.btn:focus,
+.custom-control-input:focus ~ .custom-control-label::before,
+.btn.focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.radius {
+  border-radius: .3rem !important;
+  -webkit-border-radius: .3rem !important;
+  overflow: hidden;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+  text-shadow: none;
+  outline: none;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+  text-shadow: none;
+  outline: none;
+}
+
+.btn-primary {
+  z-index: 0;
+  background: transparent;
+  cursor: pointer;
+  color: #000;
+  display: inline-block;
+  width: 180px;
+  height: 60px;
+  line-height: 55px;
+  padding: 0;
+  font-weight: 800;
+  font-size: 14px;
+  font-family: 'Montserrat', cursive;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  border: 3px solid #000;
+  border-radius: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn-primary:hover {
+  background: #000;
+  border-color: #000;
+}
+
+.btn-primary.gray {
+  border-color: #444646;
+  color: #fff;
+}
+
+.section-title {
+  margin-bottom: 100px;
+}
+
+.section-title h2 {
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.section-title h2 span {
+  border: 2px solid #161819;
+  padding: 10px;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.page-title h1 {
+  padding: 250px 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* Width Classes */
+.w5 {
+  width: 5%;
+}
+
+.w15 {
+  width: 15%;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w19 {
+  width: 19%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w50 {
+  width: 50% !important;
+}
+
+.w60 {
+  width: 60% !important;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w100 {
+  width: 100% !important;
+}
+
+/* Padding Classes */
+.pad-tb-20 {
+  padding: 20px 0;
+}
+
+.pad-tb-30 {
+  padding: 30px 0;
+}
+
+.pad-tb-40 {
+  padding: 40px 0;
+}
+
+.pad-tb-50 {
+  padding: 50px 0;
+}
+
+.pad-tb-60 {
+  padding: 60px 0;
+}
+
+.pad-tb-80 {
+  padding: 80px 0;
+}
+
+.pad-tb-100 {
+  padding: 100px 0;
+}
+
+.pad-t30 {
+  padding-top: 30px;
+}
+
+.pad-t40 {
+  padding-top: 40px;
+}
+
+.pad-t45 {
+  padding-top: 45px;
+}
+
+.pad-t50 {
+  padding-top: 50px;
+}
+
+.pad-t80 {
+  padding-top: 80px;
+}
+
+.pad-b0 {
+  padding-bottom: 0 !important;
+}
+
+.pad-b25 {
+  padding-bottom: 25px;
+}
+
+.pad-b30 {
+  padding-bottom: 30px;
+}
+
+.pad-b40 {
+  padding-bottom: 40px;
+}
+
+.pad-b50 {
+  padding-bottom: 50px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.ml-100 {
+  margin-left: 100px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.align-md-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+/* fadein animation */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fa-ul li {
+  padding: 5px 0;
+}
+
+.fa-ul li .fa-li {
+  margin-top: 8px;
+  color: #06B4CF;
+}
+
+select {
+  background: url(../images/dropdown.png) no-repeat right;
+  -webkit-appearance: none;
+  padding-right: 30px !important;
+  color: #000;
+}
+
+select:focus {
+  background: url(../images/dropdown.png) no-repeat right;
+}
+
+thead th {
+  vertical-align: top !important;
+  border-width: 1px !important;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 1px;
+}
+
+.tooltip-inner {
+  background: #06B4CF;
+  font-size: 10px;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before,
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #263952;
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: .1rem;
+  margin-top: -3px;
+}
+
+.custom-checkbox .custom-control-label::after {
+  top: 1px;
+}
+
+.parallax {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.owl-carousel .owl-item img {
+  display: inline-block;
+}
+
+.navbar {
+  background: black;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-brand img {
+  width: 60px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding: .5rem 1rem;
+    font-weight: 200;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #06B4CF;
+  }
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+.collapse-nav-zero {
+  width: 0;
+}

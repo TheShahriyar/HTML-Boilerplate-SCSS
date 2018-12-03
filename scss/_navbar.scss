@@ -1,0 +1,44 @@
+.navbar {
+	background: rgba(0, 0, 0, 1);
+	z-index: 999;
+	position: fixed;
+	width: 100%;
+}
+.navbar-brand {
+	img {
+		width: 60px;
+	}
+}
+
+@media (min-width: 768px) {
+
+
+	.navbar-nav {
+		.nav-item {
+			.nav-link {
+				color: #fff;
+				padding: .5rem 1rem;
+				font-weight: 200;
+
+				&:hover {
+					color: $primary-color;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+@media (max-width: 767px) {
+
+}
+
+.navbar-nav .dropdown-menu {
+	position: absolute;
+}
+
+.collapse-nav-zero {
+	width: 0;
+}

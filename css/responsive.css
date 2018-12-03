@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .mbl-hidden {
+    display: none;
+  }
+}
